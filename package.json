@@ -1,0 +1,9 @@
+{
+  "name": "media-album-app-root",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix server run start",
+    "worker": "npm --prefix server run worker",
+    "postinstall": "npm --prefix server install"
+  }
+}
